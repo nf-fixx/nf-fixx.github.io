@@ -1,7 +1,8 @@
 {
-  "name": "markdownblog",
+  "name": "nf-fixx.github.io",
+  "description": "This is a technical blog build by NF-FixX team (Node.js Freestyle: Innovation & eXperimentation)",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "export": "next export",
