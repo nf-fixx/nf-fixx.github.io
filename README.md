@@ -1,24 +1,65 @@
-Build static website with markdown and nextjs.
-In nextjs we provide sitemap, SEO and Search support.
+Determining workspace structure
 
-## Follow Article Series
-https://medium.com/nextjs/build-the-static-blog-with-next-js-and-markdown-59576c75fbf2
+Deciding which workspace information to collect
 
-https://medium.com/nextjs/build-the-static-blog-with-next-js-and-markdown-d438c2f74297
+Gathering workspace info
 
-https://medium.com/nextjs/build-the-search-functionality-in-a-static-blog-with-next-js-and-markdown-33ebc5a2214e
+Here's a basic README guide for your project:
 
-https://medium.com/nextjs/build-the-seo-and-sitemap-functionality-in-a-static-blog-with-next-js-and-markdown-d0b62c83d7f2
+# NF-FixX Blog
 
+This is a technical blog build by NF-FixX team.
 
+## Getting Started
 
-## step
-1. Download code
-2. Run the `npm install`
-3. To start local develpoment server run ` npm run dev`
+First, install the dependencies:
 
-## Note 
-change your ` localhost:3000 ` url in `./config.js` url. 
+```sh
+npm install
+```
 
-## HTML Template
-https://startbootstrap.com/template/blog-home
+## Development
+
+To start the development server:
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Building the Project
+
+To build the project:
+
+```sh
+npm run build
+```
+
+## Running the Project
+
+To start the project:
+
+```sh
+npm run start
+```
+
+## Adding a Post
+
+Posts are written in Markdown and stored in the [`posts`](command:_github.copilot.openRelativePath?%5B%22posts%22%5D "posts") directory. To add a new post:
+
+1. Create a new Markdown file in the [`posts`](command:_github.copilot.openRelativePath?%5B%22posts%22%5D "posts") directory.
+2. The filename should be the slug of your post (e.g., `my-new-post.md`).
+3. At the top of the file, include the frontmatter. This is metadata about the post and should be written in YAML. Here's an example:
+
+```markdown
+---
+title: "My New Post"
+date: "2022-01-01"
+tags: ["tag1", "tag2"]
+---
+```
+
+4. Below the frontmatter, write the content of your post in Markdown.
+
+After adding the post, it will automatically appear on the blog page when you run the project.
