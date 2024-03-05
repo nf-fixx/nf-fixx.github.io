@@ -1,11 +1,3 @@
-Determining workspace structure
-
-Deciding which workspace information to collect
-
-Gathering workspace info
-
-Here's a basic README guide for your project:
-
 # NF-FixX Blog
 
 This is a technical blog build by NF-FixX team.
